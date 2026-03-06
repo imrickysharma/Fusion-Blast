@@ -1,13 +1,16 @@
 {
   "name": "Fusion Blast",
   "short_name": "FusionBlast",
-  "description": "Strategic orb explosion board game for 2–4 players. Place orbs, trigger chain reactions, eliminate opponents!",
-  "start_url": "/",
+  "description": "Strategic orb explosion board game for 2\u20134 players. Place orbs, trigger chain reactions, eliminate opponents!",
+  "start_url": "/Fusion-Blast/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#0a0a0a",
   "theme_color": "#0a0a0a",
-  "categories": ["games", "entertainment"],
+  "categories": [
+    "games",
+    "entertainment"
+  ],
   "lang": "en",
   "icons": [
     {
@@ -29,8 +32,14 @@
       "name": "Quick Start 2 Players",
       "short_name": "2 Players",
       "description": "Start a 2-player game immediately",
-      "url": "/?quick=2",
-      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+      "url": "/Fusion-Blast/?quick=2",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
-  ]
+  ],
+  "scope": "/Fusion-Blast/"
 }
